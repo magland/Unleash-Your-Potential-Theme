@@ -1,5 +1,5 @@
 # Unleash-Your-Potential-Theme
-![screenshot](https://github.com/CuteBlueRadio/Unleash-Your-Potential-Theme/blob/main/Screenshot%20from%202021-02-09%2016-37-28.png?raw=true)
+![screenshot](https://github.com/CuteBlueRadio/Unleash-Your-Potential-Theme/blob/main/screenshot.png?raw=true)
 
 #### Dependencies
 * devilspie
