@@ -1,0 +1,9 @@
+(if
+(matches (application_name) "terminator")
+(begin
+(stick)
+(below)
+(undecorate)
+(wintype "dock")
+)
+)
