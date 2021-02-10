@@ -1,21 +1,35 @@
 # Unleash-Your-Potential-Theme
-![screenshot](https://github.com/CuteBlueRadio/Unleash-Your-Potential-Theme/blob/main/Screenshot%20from%202021-02-09%2016-37-28.png?raw=true)
+![screenshot](./Screenshot%20from%202021-02-09%2016-37-28.png)
 
-#### Dependencies
-* devilspie
-* conky
-* cli-visualizer
-* Terminator
+## Prerequisites
 
-### Configuration
+Unleash-Your-Potential-Theme depends on devilspie, conky, terminator, and cli-visualizer. The following instructions assume you are on a Debian-based system (ubuntu, pop, etc)
 
-#### conky
+Install devilspie, conky and terminator:
+
+```bash
+sudo apt install devilspie conky terminator
+```
+
+Install [cli-visualizer](https://github.com/dpayne/cli-visualizer):
+
+```
+sudo apt install libfftw3-dev libncursesw5-dev cmake
+sudo apt install libpulse-dev
+git clone https://github.com/dpayne/cli-visualizer
+cd cli-visualizer
+sudo ./install.sh
+```
+
+## Configuration
+
+### conky
 
 Place the conky.conf file in your conky .config folder. If you already have a configuration file for conky, simply replace it or include both. If you have multiple configure files you will have to run conky with ```conky -c .config/FILE.conf```
 
 The conky configuration included was based off of https://github.com/brndnmtthws/conky/wiki/configs/ze/conkyrc.
 
-#### cli-visualizer (vis)
+### cli-visualizer (vis)
 
 Just like with conky, take the vis_colors file and place it in the .config/vis/colors/ folder. You will have to either change its name to 'colors' or add it to the color.scheme list in .config/vis/config. Values are seperated by ',' and nothing else. For example:
 
@@ -24,7 +38,7 @@ colors.scheme=vis_colors
 
 when executing 'vis' in your terminal the blue-yellow theme should show.
 
-#### Terminator and Devilspie
+### Terminator and Devilspie
 
 Place the devilspieconf.ds in your .devilspie folder. Devilspie will now find any application named "terminator", stick it, make it "always below", undecorate it, and make it the "dock" window type.
 
