@@ -1,5 +1,6 @@
 # Unleash-Your-Potential-Theme
-![screenshot](./Screenshot%20from%202021-02-09%2016-37-28.png)
+
+![screenshot](./screenshot.png)
 
 ## Prerequisites
 
